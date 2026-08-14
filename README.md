@@ -35,3 +35,8 @@ Each CI run produces test output that can be analyzed in two ways:
 - CI logs — FlakeLens can parse GitHub Actions logs as a fallback when the JUnit artifact is unavailable
 
 This allows both ingestion paths supported by FlakeLens to be tested using the same repository
+
+[View all CI workflow runs](https://github.com/neelkumar01/flakeLens-testing/actions)
+
+- First 15 runs: JUnit XML artifacts were generated 
+- Next 10 runs: JUnit artifact upload was disabled to validate FlakeLens GitHub Actions log parsing fallback
