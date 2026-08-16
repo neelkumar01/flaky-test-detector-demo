@@ -1,6 +1,8 @@
-### FlakeLens Testing
+### FlakeLens Testing 🧪
 
 A small controlled test repository for validating [FlakeLens](https://github.com/neelkumar01/flakeLens) an AI assisted flaky test detection tool for CI pipelines
+
+<hr>
 
 ### Purpose
 
@@ -11,6 +13,8 @@ This repository provides a predictable environment for testing whether `FlakeLen
 - Consume JUnit test results
 - Fall back to GitHub Actions logs when structured results are unavailable
 - Provide useful failure evidence for AI assisted analysis
+
+<hr>
 
 ### Test Suite
 
@@ -24,6 +28,8 @@ The repository contains a small pytest suite with 7 tests:
   - Network failures
 
 The flaky behavior is intentionally introduced so that the expected results are known before running `FlakeLens`
+
+<hr>
 
 ### CI Setup
 
